@@ -23,5 +23,6 @@ jobs:
     # Run Snyk OSS
     - name: Run OSS Code
       run: |
+         mvn -v
          snyk test 
       continue-on-error: true
