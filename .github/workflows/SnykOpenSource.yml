@@ -24,5 +24,6 @@ jobs:
     - name: Run OSS Code
       run: |
          mvn -v
+         mvn install
          snyk test 
       continue-on-error: true
