@@ -26,4 +26,5 @@ jobs:
          mvn -v
          mvn install
          snyk test 
+         snyk monitor --severity-threshold=high
       continue-on-error: true
