@@ -95,6 +95,11 @@
             <artifactId>commons-collections</artifactId>
             <version>3.2.2</version>
         </dependency>
+        <dependency>
+            <groupId>nimbus-jose-jwt</groupId>
+            <artifactId>nimbus-jose-jwt</artifactId>
+            <version>9.8.1</version>
+        </dependency>
 
         <!-- test dependencies -->
         <dependency>
