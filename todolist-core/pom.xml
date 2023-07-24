@@ -96,7 +96,7 @@
             <version>3.2.2</version>
         </dependency>
         <dependency>
-            <groupId>nimbus-jose-jwt</groupId>
+            <groupId>com.nimbusds</groupId>
             <artifactId>nimbus-jose-jwt</artifactId>
             <version>9.8.1</version>
         </dependency>
